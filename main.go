@@ -217,7 +217,7 @@ func main() {
 	data, err := ioutil.ReadFile(plik)
 	if err != nil {
 
-		fmt.Println("Blad czytania pliku", err)
+		fmt.Println("File read error", err)
 		fmt.Scanf(" ")
 		return
 	}
